@@ -3,6 +3,7 @@
 ## Descripción
 
 Este repositorio contiene un clon del popular servicio de música Spotify construido utilizando Astro, un moderno generador de sitios front-end que ofrece rendimiento increíblemente rápido. Sin embargo, ha sido renombrado como 'HaganeFy' puesto que es un proyecto personal basado en mis animes favoritos con el fin de poder categorizar las canciones de mi playlist personal en distintos animes y tenerlas ordenadas.
+Recalco darle créditos a @midudev, ya que me he basado en su clon, sin embargo, no pararé de escalarlo y de realizarle cambios y mejoras para darle mi toque y poder disfrutar de la aplicación tanto yo como mi gente 😊.
 
 ## Características
 
