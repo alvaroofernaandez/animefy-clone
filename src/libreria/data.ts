@@ -13,55 +13,55 @@ export const playlists: Playlist[] = [
   {
     id: '1',
     albumId: 1,
-    title: "Chill Lo-Fi Music",
+    title: "One Piece",
     color: colors.yellow,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353",
+      "https://b.thumbs.redditmedia.com/X4VDgVKqsiTnA22tAJQ72MHJQs7Sd7hsFaBBqLqIqcY.png",
     artists: ["NoSpirit", "Casiio"],
   },
   {
     id: '2',
     albumId: 2,
-    title: "Lo-Fi Chill Session",
-    color: colors.green,
+    title: "Full Metal Alchemist: Brotherhood",
+    color: colors.purple,
     cover:
-      "https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187",
+      "https://images4.alphacoders.com/206/thumb-1920-206454.png",
     artists: ["Kupla", "Blue Fox"],
   },
   {
     id: '3',
     albumId: 3,
-    title: "Study Session",
-    color: colors.rose,
+    title: "Naruto & Naruto Shippuden",
+    color: colors.orange,
     cover:
-      "https://f4.bcbits.com/img/a1435058381_65.jpg",
+      "https://at-cdn-s02.audiotool.com/2020-09-18/documents/q4zth6yi849/0/cover512x512-42ebb5878a8245b9982342ab393d914d.jpg",
     artists: ["Tenno", "xander", "Team Astro"],
   },
   {
     id: '4',
     albumId: 4,
-    title: "Blue Note Study Time",
+    title: "Shingeki no Kyojin",
     color: colors.blue,
     cover:
-      "https://f4.bcbits.com/img/a1962013209_16.jpg",
+      "https://i2o.scdn.co/image/ab67706c0000cfa3db5f796be413045a9aaff9d6",
     artists: ["Raimu", "Yasumu"],
   },
   {
     id: '5',
     albumId: 5,
-    title: "Chau Saura Session",
-    color: colors.purple,
+    title: "Bleach",
+    color: colors.yellow,
     cover:
-      "https://f4.bcbits.com/img/a2793859494_16.jpg",
+      "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/how-strong-is-kenpachi-zaraki-bleach-featured.jpg",
     artists: ["Chau Saura", "amies", "kyu"],
   },
   {
     id: '6',
     albumId: 6,
-    title: "Like a Necessity",
-    color: colors.orange,
+    title: "Black Clover",
+    color: colors.red,
     cover:
-      "https://f4.bcbits.com/img/a0363730459_16.jpg",
+      "https://i.pinimg.com/originals/d8/28/cf/d828cf2f9467dca2ead406523865ea16.jpg",
     artists: ["WFS", "Nadav Cohen"],
   },
 ];

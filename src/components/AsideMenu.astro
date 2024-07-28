@@ -3,6 +3,8 @@ import Library from "../icons/Library.astro";
 import Home from "../icons/Home.astro";
 import Search from "../icons/Search.astro";
 import SideMenuItem from "./SideMenuItem.astro";
+import SideMenuCard from "./SideMenuCard.astro";
+import { playlists } from "../libreria/data";
 ---
 
 <nav class="flex flex-col flex-1 gap-2">
@@ -26,8 +28,10 @@ import SideMenuItem from "./SideMenuItem.astro";
                 <Library />
                 Animes
             </SideMenuItem>
+
+            {
+                playlists.map(playlist => <SideMenuCard playlist={playlist}/>)
+            }
         </ul>
     </div>
-
-    <Library />
 </nav>
