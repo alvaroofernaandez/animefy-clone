@@ -22,7 +22,7 @@ export const playlists: Playlist[] = [
   {
     id: '2',
     albumId: 2,
-    title: "Full Metal Alchemist: Brotherhood",
+    title: "Full Metal Alchemist",
     color: colors.purple,
     cover:
       "https://images4.alphacoders.com/206/thumb-1920-206454.png",
@@ -31,7 +31,7 @@ export const playlists: Playlist[] = [
   {
     id: '3',
     albumId: 3,
-    title: "Naruto & Naruto Shippuden",
+    title: "Naruto",
     color: colors.orange,
     cover:
       "https://staticg.sportskeeda.com/editor/2023/11/2be69-17002462477746-1920.jpg",
