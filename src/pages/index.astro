@@ -3,15 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 import { playlists } from '../libreria/data';
 import PlayListItemCard from '../components/PlayListItemCard.astro';
+import Greeting from '../components/Greeting.svelte';
 ---
 
 <Layout title="HaganeFy - AnimeMusic">
   <div 
   id="playlist-container" 
-  class="relative transition-all duration-1000 bg-cyan-">
+  class="relative transition-all duration-1000 bg-cyan-800">
 
     <div class="relative z-10 px-6 pt-10">
-      <h1 class="text-4xl font-bold"> ¡Bienvenido a HaganeFy!</h1>
+      <Greeting />
 
       <div class="flex flex-wrap mt-6 gap-4">
       {playlists.map(playlist =>  <PlayListItemCard playlist={playlist} />)}
