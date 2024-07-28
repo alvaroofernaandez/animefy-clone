@@ -17,7 +17,7 @@ export const playlists: Playlist[] = [
     color: colors.yellow,
     cover:
       "https://b.thumbs.redditmedia.com/X4VDgVKqsiTnA22tAJQ72MHJQs7Sd7hsFaBBqLqIqcY.png",
-    artists: ["NoSpirit", "Casiio"],
+    artists: ["by Eiichiro Oda"],
   },
   {
     id: '2',
@@ -26,7 +26,7 @@ export const playlists: Playlist[] = [
     color: colors.purple,
     cover:
       "https://images4.alphacoders.com/206/thumb-1920-206454.png",
-    artists: ["Kupla", "Blue Fox"],
+    artists: ["by Hiromu Arakawa"],
   },
   {
     id: '3',
@@ -34,8 +34,8 @@ export const playlists: Playlist[] = [
     title: "Naruto & Naruto Shippuden",
     color: colors.orange,
     cover:
-      "https://at-cdn-s02.audiotool.com/2020-09-18/documents/q4zth6yi849/0/cover512x512-42ebb5878a8245b9982342ab393d914d.jpg",
-    artists: ["Tenno", "xander", "Team Astro"],
+      "https://staticg.sportskeeda.com/editor/2023/11/2be69-17002462477746-1920.jpg",
+    artists: ["by Masashi Kishimoto"],
   },
   {
     id: '4',
@@ -44,7 +44,7 @@ export const playlists: Playlist[] = [
     color: colors.blue,
     cover:
       "https://i2o.scdn.co/image/ab67706c0000cfa3db5f796be413045a9aaff9d6",
-    artists: ["Raimu", "Yasumu"],
+    artists: ["by Hajime Isayama"],
   },
   {
     id: '5',
@@ -53,7 +53,7 @@ export const playlists: Playlist[] = [
     color: colors.yellow,
     cover:
       "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/how-strong-is-kenpachi-zaraki-bleach-featured.jpg",
-    artists: ["Chau Saura", "amies", "kyu"],
+    artists: ["by Tite Kubo"],
   },
   {
     id: '6',
@@ -62,7 +62,16 @@ export const playlists: Playlist[] = [
     color: colors.red,
     cover:
       "https://i.pinimg.com/originals/d8/28/cf/d828cf2f9467dca2ead406523865ea16.jpg",
-    artists: ["WFS", "Nadav Cohen"],
+    artists: ["by Yuki Tabata"],
+  },
+  {
+    id: '7',
+    albumId: 7,
+    title: "Kimetsu No Yaiba",
+    color: colors.pink,
+    cover:
+      "https://hips.hearstapps.com/hmg-prod/images/demon-slayer-kimetsu-no-yaiba-642d336e4b60d.jpg?crop=1xw:1xh;center,top&resize=1200:*  ",
+    artists: ["by Koyoharu Gotouge"],
   },
 ];
 
