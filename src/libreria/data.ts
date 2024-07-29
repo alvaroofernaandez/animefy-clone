@@ -105,10 +105,10 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 1,
-    "title": "Moonlit Walk",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/products/VINYL_MORNING_COFFEE_4-min.png?v=1680526353`,
-    "artists": ["LoFi Dreamer"],
-    "album": "Chill Lo-Fi Music",
+    "title": "Assu! - Opening 26 One piece",
+    "image": `https://b.thumbs.redditmedia.com/X4VDgVKqsiTnA22tAJQ72MHJQs7Sd7hsFaBBqLqIqcY.png`,
+    "artists": ["Hiroshi Kitadani"],
+    "album": "One piece",
     "duration": "3:12"
   },
   {
@@ -150,10 +150,10 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 2,
-    "title": "Silent Rain",
-    "image": `https://vinyl.lofirecords.com/cdn/shop/files/2amsynth-vinyl.png?v=1693312187`,
-    "artists": ["Urban Nocturne"],
-    "album": "Midnight Tales",
+    "title": "again - Opening 1 Full Metal Alchemist",
+    "image": `https://images4.alphacoders.com/206/thumb-1920-206454.png`,
+    "artists": ["YUI"],
+    "album": "Full Metal Alchemist",
     "duration": "3:40"
   },
   {
@@ -195,10 +195,10 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 3,
-    "title": "Lunar",
-    "image": `https://f4.bcbits.com/img/a1435058381_65.jpg`,
-    "artists": ["Tenno"],
-    "album": "Study Session",
+    "title": "SIGN - Opening Naruto Shippuden",
+    "image": `https://staticg.sportskeeda.com/editor/2023/11/2be69-17002462477746-1920.jpg`,
+    "artists": ["FLOW"],
+    "album": "Naruto",
     "duration": "3:40"
   },
   {
@@ -240,10 +240,10 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 4,
-    "title": "Lunar",
-    "image": "https://f4.bcbits.com/img/a1962013209_16.jpg",
-    "artists": ["Tenno"],
-    "album": "Study Session",
+    "title": "You See A Big Girl - OST SNK",
+    "image": "https://i2o.scdn.co/image/ab67706c0000cfa3db5f796be413045a9aaff9d6",
+    "artists": ["Hiroyuki Sawano"],
+    "album": "Shingeki No Kyojin",
     "duration": "3:40"
   },
   {
@@ -285,10 +285,10 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 5,
-    "title": "Moonlit Walk",
-    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
-    "artists": ["LoFi Dreamer"],
-    "album": "Chill Lo-Fi Music",
+    "title": "Number One - OST Bleach",
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/08/how-strong-is-kenpachi-zaraki-bleach-featured.jpg",
+    "artists": ["Shiro SAGISU"],
+    "album": "Bleach",
     "duration": "3:12"
   },
   {
@@ -330,19 +330,19 @@ export const songs: Song[] = [
   {
     "id": 1,
     "albumId": 6,
-    "title": "Night's End",
-    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
-    "artists": ["LoFi Dreamer"],
-    "album": "Chill Lo-Fi Music",
+    "title": "Haruka Mirai - Opening 1 Black Clover",
+    "image": "https://i.pinimg.com/originals/d8/28/cf/d828cf2f9467dca2ead406523865ea16.jpg",
+    "artists": ["Kankaku Piero"],
+    "album": "Black Clover",
     "duration": "4:20"
   },
   {
     "id": 1,
     "albumId": 7,
-    "title": "Night's End",
-    "image": "https://f4.bcbits.com/img/a2793859494_16.jpg",
-    "artists": ["LoFi Dreamer"],
-    "album": "Chill Lo-Fi Music",
+    "title": "Kizuna no Kiseki - Opening 3 Kimetsu No Yaiba",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/demon-slayer-kimetsu-no-yaiba-642d336e4b60d.jpg?crop=1xw:1xh;center,top&resize=1200:*  ",
+    "artists": ["MAN WITH A MISSION × milet"],
+    "album": "Kimetsu No Yaiba",
     "duration": "4:20"
   },
 ]
