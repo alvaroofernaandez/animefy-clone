@@ -23,8 +23,8 @@ PD: Este es un proyecto personal que me hacía ilusión llevar a cabo tanto porq
 - TailwindCSS
 
 ## Instalación
-1. Clona este repositorio: git clone https://github.com/alvaroofernaandez/hagane.fy
-2. Navega a la carpeta del proyecto: cd spotify-astro-clone
+1. Clona este repositorio: git clone https://github.com/alvaroofernaandez/animefy-clone
+2. Navega a la carpeta del proyecto: cd animefy-clone
 3. Instala las dependencias: npm install
 4. Ejecuta el proyecto: npm run dev
-5. Visita http://localhost:3000 en tu navegador para ver la aplicación en funcionamiento.
+5. Visita http://localhost:4321 en tu navegador para ver la aplicación en funcionamiento.
