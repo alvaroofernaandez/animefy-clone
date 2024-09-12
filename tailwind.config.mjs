@@ -2,7 +2,16 @@
 export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundColor: {
+				'spotify-green': '#1db954',
+			},
+		},
 	},
 	plugins: [],
+	variants: {
+		extend: {
+			backgroundColor: ['active', 'hover'],
+		},
+	},
 }

@@ -46,6 +46,44 @@ const { title } = Astro.props;
 		grid-template-columns: 350px 1fr;
 		grid-template-rows: 1fr auto;
 	}
+
+	@media (max-width: 767px) {
+		#app {
+			grid-template-areas: 
+				"main"
+				"player";
+			grid-template-columns: 1fr;
+		}
+
+		aside {
+			display: none;
+		}
+
+		footer {
+			height: auto;
+			padding: 1rem 0;
+		}
+
+		footer > div {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		footer .w-1/4,
+		footer .w-1/2,
+		footer .w-full {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 1rem;
+		}
+
+		footer .max-w-md {
+			width: 100%;
+		}
+	}
 </style>	
 
 <style is:global>

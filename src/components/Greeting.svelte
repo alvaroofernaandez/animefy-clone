@@ -5,11 +5,11 @@
   let greeting = ""
 
   if(currentHour > 12) {
-    greeting = "Buenos días, ¡Bienvenido a HaganeFy!"
+    greeting = "Buenos días, ¡Bienvenido a AnimeFy!"
   } else if (currentHour < 18) {
-    greeting = "Buenas tardes, ¡Bienvenido a HaganeFy!"
+    greeting = "Buenas tardes, ¡Bienvenido a AnimeFy!"
   } else {
-    greeting = "Buenas noches, ¡Bienvenido a HaganeFy!"
+    greeting = "Buenas noches, ¡Bienvenido a AnimeFy!"
   }
 </script>
 

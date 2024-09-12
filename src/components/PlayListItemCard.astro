@@ -14,21 +14,21 @@ const {
 const artistString = artists.join(", ")
 ---
 <article class="group relative hover:bg-zinc-800 shadow-lg hover:shadow-xl bg-zinc-500/30 
-rounded-md transition-all duration-300">
+rounded-md transition-all duration-300 w-44">
 
   <div
-    class=`absolute right-4 bottom-20 translate-y-4
+    class="absolute right-4 bottom-20 translate-y-4
     transition-all duration-500 opacity-0
     group-hover:translate-y-0 group-hover:opacity-100
-    z-10
-  `>
+    z-10"
+  >
     <CardPlayButton id={id} client:visible />
   </div>
 
   <a
     href={`/playlist/${id}`}
     class="playlist-item flex transition-all duration-300 relative p-2 overflow-hidden 
-    gap-2 pb-6 w-44 flex-col"
+    gap-2 pb-6 w-full flex-col"
     transition:name=`playlist ${id} box`
   >
     <picture class="aspect-square w-full h-auto flex-none">
@@ -40,7 +40,7 @@ rounded-md transition-all duration-300">
       />
     </picture>
 
-    <div class="flex flex-auto flex-col p-x-2">
+    <div class="flex flex-auto flex-col px-2">
       <h4 class="text-white text-sm" transition:name=`playlist ${playlist?.id} title`>
         {title}
       </h4>
@@ -51,3 +51,27 @@ rounded-md transition-all duration-300">
     </div>
   </a>
 </article>
+
+<style>
+  @media (max-width: 767px) {
+    article {
+      width: 80%;
+      max-width: 250px;
+      margin: 0 auto;
+    }
+
+    article .absolute {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    article h4 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    article span {
+      font-size: 0.875rem;
+    }
+  }
+</style>
