@@ -7,6 +7,10 @@ Recalco darle créditos a @midudev, ya que me he basado en su clon, sin embargo,
 
 PD: Este es un proyecto personal que me hacía ilusión llevar a cabo tanto porque es algo que me servirá como aprendizaje para especializarme en las tecnologías, adquirir práctica y también como auto-demostración de mis capacidades para escalar y mejorar día a día este proyecto.
 
+## Previsualización
+![957shots_so](https://github.com/user-attachments/assets/10abb2f6-365b-4d9f-9911-3a6d73380d7d)
+
+
 ## Características
 
 - Interfaz de usuario similar a Spotify.
